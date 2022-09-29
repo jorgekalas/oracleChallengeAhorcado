@@ -39,3 +39,25 @@
 .hidden{
     display: none;
 }
+
+.winStyle{
+    color: olivedrab;
+    font-size: 2rem;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.loseStyle{
+    color: crimson;
+    font-size: 2rem;
+    border: 1px solid brown;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    right:10%;
+}
