@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1><img src="images/logo.svg" class="logo" alt="logo"></h1>
+    </header>
+    
+    <main>
+        <div class="botones-home">
+            <a href="#horca">
+                <input type="submit" class="btn-iniciar" value="Iniciar Juego" id="iniciar-juego" onclick="iniciarJuego()">
+            </a>
+        </div>
+
+        <div id="aparece-ahorcado" class="divCanvas hidden">
+            <canvas id="horca" class="canvas" width="1200" height="860"></canvas>
+            <input type="submit" class="btn-volver-a-empezar" value="Volver a empezar" id="volver-a-empezar">
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    
+    <!-- Javascript -->
+    <script src="horca.js"></script>
+    <script src="canvas.js"></script>
+
+</body>
+</html>

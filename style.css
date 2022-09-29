@@ -1,0 +1,41 @@
+/* body{
+    height: 100vh;
+} */
+
+.botones-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.btn-iniciar, .btn-volver-a-empezar{
+    background: #0A3871;
+    color: #FFF;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn-iniciar:hover{
+    background: #3368aa;
+}
+
+
+.divCanvas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.canvas{
+    margin-right:250px;
+    height: 70vh
+}
+
+.hidden{
+    display: none;
+}
